@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+.cont {
+    width: 100%;
+    margin: auto;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: #000000 solid 1px;
+    /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 15px 0;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.links {
+    margin: auto;
+    display: flex;
+    list-style: none;
+    gap: 10px;
+
+}
+
+.links a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.cont input {
+    border: none;
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    padding: 7px 10px;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+i {
+    color: rgb(0, 0, 0);
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+
+i:hover {
+    color: chocolate;
+    transition: 0.3s;
+}
+
+/* end navbar  */
+
+.home {
+    margin: auto;
+    align-items: center;
+    display: flex;
+    position: relative;
+    top: -40px;
+
+
+}
+
+.home img {
+    width: 700px;
+    margin-top: -60px;
+}
+
+.text h1 {
+    margin: 20px 0;
+    font-size: 28px;
+    font-weight: 900;
+
+}
+
+.text p {
+    color: #888888;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.text form input {
+    margin-top: 20px;
+    padding: 10px;
+    width: 400px;
+    border: none;
+    font-size: 14px;
+    border-bottom: #000000 1px solid;
+}
+
+.text form button {
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 190px;
+    width: 70px;
+    background-color: #564235;
+    color: #f1f1f1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.text form button:hover {
+    color: chocolate;
+    opacity: 0.9;
+    transition: 0.3s;
+}
+
+form a {
+    color: #564235;
+    text-decoration: none;
+}
+
+
+/* end login  */
+
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: #000000;
+    color: #f1f1f1;
+    margin-top: -100px;
+    padding: 30px 40px;
+    display: flex;
+    position: absolute;
+    z-index: 100;
+}
+
+footer .first,
+.second,
+.third,
+.fourth {
+    margin-right: 120px;
+}
+
+footer h2 {
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+footer p {
+    margin-bottom: 15px;
+    padding: 2px;
+    font-size: 16px;
+}
+
+footer .obacity {
+    opacity: 0.6;
+    font-size: 12px;
+}
+
+footer input {
+    padding: 7px 10px;
+    background-color: #000000;
+    border: #f1f1f1 1px solid;
+    border-radius: 3px;
+}
+
+footer button {
+    background-color: #000000;
+    border: none;
+}
+
+footer i {
+    color: #f1f1f1;
+    margin-left: -30px;
+    cursor: pointer;
+}
+
+footer a {
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+a:hover {
+    color: chocolate;
+    transition: 0.3s;
+}
+
+footer img {
+    cursor: pointer;
+}
+
+.appstore {
+    position: absolute;
+    bottom: 55px;
+    right: 80px;
+}
